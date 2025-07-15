@@ -1,12 +1,7 @@
 
-Rearrange
-=========
+This repo will be populated with lots of fancy checks. 
 
-This module is used for rearranging names.
-Turns "LastName, FirstName" into "FirstName LastName".
+Currently the main script is health_checks.py
 
-## Examples
-
- * Calling `rearrange_name("Turing, Alan")` will return `"Alan Turing"`
- * Calling `rearrange_name("Hopper, Grace M.")` will return `"Grace M. Hopper"`
- * Calling `rearrange_name("Voltaire")` will return `"Voltaire"`
+This script will print "Everything ok" if all checks pass, 
+or the corresponding error messages if some checks fail.
